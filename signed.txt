@@ -1,0 +1,31 @@
+# AdAway Youtube
+# Blocking mobile Youtube
+# 
+#
+# Changelog:
+# 2016-07-18 Now hosted on GitHub + Cloudflare
+# 2014-05-18 Now with a valid SSL certificate available at https://adaway.org/hosts.txt
+# 2013-03-29 Integrated some hosts from
+#            http://adblock.gjtech.net/?format=hostfile
+# 2013-03-14 Back from the dead
+# 
+# License:
+# CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+#
+# Contributions by:
+# Kicelo, Dominik Schuermann
+#
+
+127.0.0.1  localhost
+::1  localhost
+127.0.0.1 doubleclick.net^
+127.0.0.1 flashtalking.com$domain=youtube.com
+127.0.0.1 googleadservices.com
+127.0.0.1 googlesyndication.com^
+127.0.0.1 s0.2mdn.net/ads
+127.0.0.1 www.google.*/pagead$domain=youtube.com
+127.0.0.1 www.youtube.com/[[computeEmptyGif_()]]$image
+127.0.0.1 www.youtube.com/[[computeThumbnailUrl_(data.thumbnail)]]
+127.0.0.1 www.youtube.com/api/stats
+127.0.0.1 www.youtube.com/pagead
+127.0.0.1 www.youtube.com/ptracking
